@@ -1,0 +1,613 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav{
+    color: rgb(244, 240, 235);
+    padding: 53px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 260%;
+}
+
+.navbar-links{
+    display: inline-flex;
+    padding-right: 0%;
+    padding-left: 66%;
+    width: 243.12px;
+    height: 22.4px;
+    
+}
+
+
+input{
+    width: 70%;
+    padding: 15px;
+
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+    position : static;
+    
+}
+
+.searchbar input{
+    border-style: double;
+}
+
+.box{
+    display:inline-flex;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 409.95px;
+    width: 1045.35px;
+    padding: 0%;
+    margin: 7%;
+    min-width: 30%;
+    margin-bottom: 11%;
+}
+
+
+
+.product{
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+
+.About{
+    text-align: center;
+    margin-top: 70px;
+}
+.contact{
+      margin-top: 30px;
+      background-color: black;
+      color: white;
+
+}
+video{
+    position:absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 41%;
+    object-fit: cover;
+    z-index: -2;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 40%;
+    
+    
+}
+.navbar-link a:hover{
+    text-decoration: greenyellow;
+    color: bisque;
+    text-shadow: 0 0 0,125em hsl(3, 10%, 100% / 0.3), 0 0 0.45em currentColor;
+    transition: 0.4s;
+    font-size: 20px ;
+}
+
+a{
+    padding-left: 0%;
+    font-size: 14px;
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-link{
+    padding-left: 6%;
+}
+
+/*side navber*/
+
+.side-nav i{
+    font-size: 25px;
+    color: black;
+    margin-left: 85%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+.side-nav{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 5%;
+    width: 48%;
+    height: 70%;
+    position: fixed;
+    transition: 0.8s all ease-in-out;
+    top: 0;
+    left: -60%;
+
+}
+.texted0{
+    font-size: 18px;
+    color: black;
+    font-family: Lucida Calligraphy; 
+    margin-left: -10%;  
+}
+.texted0:hover{
+    font-size: 22px;
+    color: black;
+    font-family: Lucida Calligraphy; 
+    margin-left: -10%; 
+    transition: 0.4s;
+
+}
+
+.tog-navbar-link {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40%;
+    margin-left: 0%;
+    margin-right: 99%;
+}
+
+.side-navbar-links{
+    width: 106.8px;
+    margin-right: 36%;
+    margin-left: 20%;
+    margin-top: 20%;
+    
+}
+
+
+.marq{
+    padding-bottom: 10px;
+    padding-top: 8px;
+    background-color: aliceblue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: static;
+}
+
+marquee i{
+    -webkit-text-fill-color: brown;
+    position: static;
+}
+
+
+.box-item{
+    display: flex;
+
+    
+}
+.texted{
+    display: block;
+    width: 50%;
+    margin-right: -46%;
+    font-family:Lucida Calligraphy;
+    margin-bottom: 0%;
+    padding-top:12%;
+    font-size: 150%;
+}
+
+.box2{
+    display:inline-flex;
+    
+    padding-left: 0%;
+    padding: 0%;
+    margin: 3%;
+    padding-top: 0%;
+    width: 548.93px;
+    height: 426px;
+    margin-bottom: -3%;
+    padding-bottom: 0%;
+    margin-top: 17%;
+    margin-left: 20%;
+    
+
+}
+
+ .texted1{
+    display: block;
+    width: 50%;
+    margin-right: -46%;
+    font-family:Lucida Calligraphy;
+    margin-bottom: 0%;
+    padding-top:0%;
+    font-size: 120%;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+
+@media screen and (max-width:900px) {
+
+
+    .box{
+        display: none;
+    }
+    video{
+        position:absolute;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        height: 20%;
+        object-fit: cover;
+        z-index: -2; 
+    }
+
+    .box2{
+        width: 248.93px;
+        height: 326px;
+
+    }
+
+    .box-item .box2{
+        margin-right: 15%;
+        margin-top: 20%;
+        height: 455.533px;
+        width: 360.4px;
+    }
+    .texted{
+        padding-top: 0%;
+        padding-bottom: 4%;
+        margin-bottom: 86%;
+        margin-right: -79%;
+        margin-left: -4%;
+        width: 76%;
+        height: 92.2px;
+        padding-left: 25%;
+        padding-right: 3%;
+        margin-top: -4%;
+    }
+    nav{
+        padding-left: 17%;
+        padding-right: 1%;
+        margin-left: -14%;
+        padding-bottom: 8%;
+        padding-top: 6%;
+        margin-bottom: -4%;
+    }
+    .name{
+        font-size: 160%;
+    }
+    .navbar-links{
+        display: none;
+    }
+
+    .nav-toggle {
+        color: white;
+        font-size: 19px;
+        display: block;
+        margin-right: 1%;
+        cursor: pointer;
+
+    }
+
+    .nav-toggle:hover{
+        color: bisque;
+        font-size: 22px;
+        transition: 0.3s ease;
+    }
+
+}
+
+.jewllo-img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.jewllo-path{
+    position: relative;
+    margin-top: 100px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    transition: 0.3s ease-in;
+    border-radius: 17%;
+    
+}
+
+.jewllo-path img{
+    width: 170px;
+    height: 160px;
+    border-radius: 17%;
+    object-fit: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 160px;
+    background: rgba(0, 0, 0, 0.432);
+    transition: 0.3s ease;
+    border-radius: 17%;
+    opacity: 0;
+}
+
+.overlay h3{
+    color: azure;
+    font-size: 21px;
+    margin-top: 35%;
+    font-family: Lucida Calligraphy;
+}
+
+.jewllo-path:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.jewllo-path:hover .overlay{
+    opacity: 1;
+
+}
+@media screen and (max-width:700px){
+    .texted1{
+        display: inline-block;
+        width: 342px;
+        margin-left: 10%;
+        margin-right: 4%;
+        margin-top: 26%;
+        margin-bottom: 0%;
+        font-size: 100%;
+    }
+
+    .jewllo-path img{
+        width: 120px;
+        height: 110px;
+
+    }
+
+    .overlay{
+        width: 120px;
+        height: 120px;
+        border-radius: 17%;
+    }
+
+    .jewllo-path{
+        margin-top: 80px;
+    }
+
+    .overlay h3{
+        font-size: 17px;
+    }
+
+
+}
+
+.handjew {
+    
+    width: 800px;
+    height: 400px;
+    display: flex;
+    position: static;
+    margin-top: 10%;
+    margin-left: 23%;
+    margin-bottom: 0%;
+}
+
+.handjew video{
+    position: inherit;
+    top:0;
+    left: 0;
+    width: 742px;
+    height: 358px;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 30px;
+    border-color: black;
+    border: solid;
+}
+
+.item-text{
+    display: flex;
+    margin-top: 10%;
+    font-size: 95%;
+    font-family: Script MT Bold;
+    margin-left: 25%;
+}
+
+@media screen and (max-width:700px){
+    .handjew {
+    
+        width: 348px;
+        height: 300px;
+        display: flex;
+        position: static;
+        margin-top: 18%;
+        margin-left: 11%;
+        margin-bottom: 5%;
+    }
+    
+    .handjew video{
+        position: inherit;
+        top:0;
+        left: 0;
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+        z-index: 0;
+        border-radius: 100%;
+    }   
+
+    .item-text{
+        display: flex;
+        margin-top: 10%;
+        font-size: 95%;
+        font-family: Script MT Bold;
+        margin-left: 0%;
+    }
+
+    .service-box{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+}
+
+.marq1{
+    font-size: large;
+    font-family: Old English Text MT;
+
+}
+
+.service-box{
+    display: flex;
+    margin: 5%;
+    gap: 15px;
+    justify-content: space-between;
+    
+}
+
+.service-box div{
+    background-color: rgb(203, 200, 200);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/*collection container*/
+
+.collection{
+    display: block;
+    background-color: antiquewhite;
+    z-index: 1;
+
+}
+
+.collection div{
+    justify-content: center;
+}
+
+.texted3 h1{
+    margin-left: 40%;
+    font-family: Lucida Calligraphy;
+    padding-top: 5%;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+
+.item-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 13px;
+    
+}
+
+.item-img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.item-img{
+    margin: 4%;
+    border: 2px;
+    border: solid;
+    border-radius: 15px;
+    
+}
+
+.item-img p,button{
+    margin-left: 25%;
+    margin-top: 1%;
+
+}
+
+.item-img button{
+    display: none;
+    
+}
+
+.item-img:hover button{
+    display: flex;
+    transition: 1s all ease-in;
+}
+
+.texted4 h1{
+    margin-left: 45%;
+}
+
+.texted5{
+    text-align: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 35px;
+    font-family: Lucida Calligraphy;
+}
+
+.texted5 h5{
+    font-size: 30px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+
+@media screen and (max-width:700px){
+
+    .items{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .item-img img{
+        width: 120px;
+        height: 120px;
+        border-radius: 13px;
+        
+    }
+
+    .texted3 h1{
+        margin-left: 22%;
+        font-family: Lucida Calligraphy;
+        padding-top: 5%;
+        font-size: 150%;
+    }
+
+    .texted5{
+        text-align: center;
+        font-size: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .texted5 h5{
+        display: none;
+
+    }
+
+    .texted4{
+        text-align: center;
+        margin-left: 0%;
+        width: 323px;
+        font-family: lucida calligraphy;
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
