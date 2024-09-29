@@ -436,7 +436,7 @@ marquee i{
         position: inherit;
         top:0;
         left: 0;
-        width: 350px;
+        width: 300px;
         height: 200px;
         object-fit: cover;
         z-index: 0;
