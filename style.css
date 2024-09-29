@@ -245,28 +245,33 @@ marquee i{
     }
 
     .box2{
-        width: 248.93px;
-        height: 326px;
+        height: 338px;
+        margin-left: 16%;
+        width: 225.93px;
+        margin-top: 29%;
 
     }
+    .box2 img{
+        padding-top: 0%;
+    }
 
-    .box-item .box2{
+    .box-item {
         margin-right: 15%;
         margin-top: 20%;
         height: 455.533px;
-        width: 360.4px;
+        width: 260.4px;
     }
-    .texted{
+    .texted h2{
+        font-size: 18px;
+        margin-bottom: 0%;
+        width: 253.333%;
+        height: 49.6;
         padding-top: 0%;
-        padding-bottom: 4%;
-        margin-bottom: 86%;
-        margin-right: -79%;
-        margin-left: -4%;
-        width: 76%;
-        height: 92.2px;
-        padding-left: 25%;
-        padding-right: 3%;
-        margin-top: -4%;
+        padding-left: 0%;
+        margin-left: 0%;
+        margin-top: 2%;
+        
+    }
     }
     nav{
         padding-left: 17%;
@@ -356,11 +361,11 @@ marquee i{
 }
 @media screen and (max-width:700px){
     .texted1{
-        display: inline-block;
-        width: 342px;
-        margin-left: 10%;
-        margin-right: 4%;
-        margin-top: 26%;
+        display: block;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 308px;
         margin-bottom: 0%;
         font-size: 100%;
     }
@@ -423,7 +428,7 @@ marquee i{
 @media screen and (max-width:700px){
     .handjew {
     
-        width: 348px;
+        width: 274px;
         height: 300px;
         display: flex;
         position: static;
@@ -434,14 +439,12 @@ marquee i{
     
     .handjew video{
         position: inherit;
-        top:0;
-        left: 0;
-        width: 300px;
-        height: 200px;
+        width: 234px;
+        height: 170px;
+        padding-left: 0%;
+        margin-right: 0%;
         object-fit: cover;
         z-index: 0;
-        padding-left: 0%;
-        margin-left: 0%;
         border-radius: 100%;
     }   
 
