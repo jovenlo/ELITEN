@@ -376,18 +376,46 @@ marquee i{
 
     }
 
+    .jewllo-img{
+        height: 192px;
+        display: flexbox;
+    }
+
     .overlay{
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
         border-radius: 17%;
     }
 
     .jewllo-path{
         margin-top: 80px;
+        heigth: 90px;
+    }
+
+    .overlay{
+        width: 90px;
+        height: 90px;
+        border-radius: 17%;
+    }
+
+    .jewllo-path{
+        margin-top: 80px;
+        height: 90px;
     }
 
     .overlay h3{
         font-size: 17px;
+    }
+
+    .jewllo-path:hover img{
+        
+        transform: scale(1.1);
+        transition: 0.3s ease-in;
+    }
+    
+    .jewllo-path:hover .overlay{
+        opacity: 1;
+    
     }
 
 
